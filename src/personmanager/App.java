@@ -31,6 +31,9 @@ public class App {
         personer.add(person2.getName());
         System.out.println (personer.toString());
         
+        Student s = new Student("Martin");
+        System.out.println("Nane of student is " + s.getName());
+        
     }
     public static void Person(String[] args) {
         

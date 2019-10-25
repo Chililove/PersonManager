@@ -10,7 +10,7 @@ package personmanager;
  * @author mega_
  */
 public class Person {
- private String name;
+ protected String name;
  
  public Person(String n)
  {
