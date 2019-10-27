@@ -35,19 +35,27 @@ public class Person {
  
  
  public static void main(String[] args){
+     ArrayList<String> liste;
+     liste = new ArrayList<String>();
      List<Person> list = new ArrayList<Person>();
+    /* 
+     liste.add(person(0, "Peter", "35", "Peter@hotmail.com"));
+     liste.add(person1(1, "Jeppe", "25", "Jeppe@hotmail.com"));
+     liste.add(Person2(2, "Tobias", "15", "Tobias@hotmail.com"));
+     liste.add(Person3(3, "Gabi", "10", "Gabi@hotmail.com"));*/
      
-     list.add(new Person(0, "Peter", "35", "Peter@hotmail.com"));
-     list.add(person1(1, "Jeppe", "25", "Jeppe@hotmail.com"));
-     list.add(Person2(2, "Tobias", "15", "Tobias@hotmail.com"));
- 
  }
- public Person(String n)
- {
-     name=n;
+ /*public Person(String n){
+ 
+ 
+     name=n;*/
+ public Person (int id , String name , String age, String email){
+
+this.name =name;
+}
      
  }
     public String getName(){
         return name;
-    }
+
 }
